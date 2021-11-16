@@ -13,22 +13,6 @@ body {
   z-index: 999;
 }
 
-.full-banner {
-  background-image: url("/assets/images/full-banner.jpg");
-  min-height: 120px;
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: right;
-}
-.full-banner small {
-  color: #999898;
-}
-.full-banner .btn-primary {
-  background-color: #e30f19;
-  border-radius: 0;
-  border: none;
-  min-width: 100px;
-}
 .list-titles img {
   min-width: 160px;
 }
@@ -163,12 +147,8 @@ footer {
 .parts {
   font-weight: bold;
 }
-
-@media (min-width: 768px) {
-  .full-banner .d-flex {
-    align-items: center;
+@media (min-width: 992px) {
+  body {
+    padding-top: 0;
   }
-}
-body {
-  padding-top: 0;
 }
